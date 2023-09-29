@@ -69,6 +69,14 @@ body {
 .card{
     flex:1
 }
+.card a {
+    display: flex;
+    align-items: center;
+}
+.card a > img {
+    width:20px;
+    height:20px;
+}
 .card img{
     display: block;
     width:100%;
